@@ -9,6 +9,7 @@ function App() {
   if (!isLogin) {
     return <Login onLogin={() => setIsLogin(true)} />;
   }
+  // اگر لاگین شده بودیم، اپلیکیشن اصلی رو نشون میدیم
 
   return <TodoApp />;
 }
